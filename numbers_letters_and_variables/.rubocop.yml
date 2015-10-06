@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - 'Guardfile'
+
+LineLength:
+  Max: 120
+
+StringLiterals:
+  Enabled: false
