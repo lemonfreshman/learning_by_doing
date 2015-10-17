@@ -29,18 +29,38 @@ pluralnoun4 = ask_madlib("another plural noun")
 
 
 puts "Here is your madlib:"
-puts "A vacation is when you take a trip to some " + adjective1 + " place with your " + adjective2 + " family.
-Usually you go to some place that is near a/an " + noun1 + " or
-up on a/an " + noun2 + ". A good vacation place is one where
-you can ride " + pluralnoun + " or play " + game + " or go hunting for " + pluralnoun2 + ".
-I like to spend my time " + verb1  + " or " + verb2 + ".
+puts "A vacation is when you take a trip to some " + adjective1 + " place
+with your " + adjective2 + " family. Usually you go to some place
+that is near a/an " + noun1 + " or up on a/an " + noun2 + ".
+A good vacation place is one where you can ride " + pluralnoun + "
+or play " + game + " or go hunting for " + pluralnoun2 + ". I like
+to spend my time " + verb1  + " or " + verb2 + ".
 When parents go on a vacation, they spend their time eating
-three " + pluralnoun3 +  " a day, and fathers play golf,
-and mothers sit around " + verb3  + ". Last summer, my little brother
+three " + pluralnoun3 +  " a day, and fathers play golf, and mothers
+sit around " + verb3  + ". Last summer, my little brother
 fell in a/an " +  noun3  + " and got poison " +  plant  + " all
-over his " + bodypart + ". My family is going to go to
-(the) " +  place  + ", and I will practice " +  verb4  + ".
-Parents need vacations more than kids because
-parents are always very " + adjective3 + " and because they have to work " + number + "
-hours every day all year making enough " + pluralnoun4 + "
-to pay for the vacation."
+over his " + bodypart + ". My family is going to go to (the) "
+puts  place  + ", and I will practice " +  verb4  + ". Parents
+need vacations more than kids because parents are always very
+" + adjective3 + " and because they have to work " + number + "
+hours every day all year making enough " + pluralnoun4 + "to pay
+for the vacation."
+
+=begin
+A vacation is when you take a trip to some horrible place
+with your smelly family. Usually you go to some place
+that is near a/an plane or up on a/an train.
+A good vacation place is one where you can ride computers
+or play Jeopardy or go hunting for school busses. I like
+to spend my time yelling or sleeping.
+When parents go on a vacation, they spend their time eating
+three bicycles a day, and fathers play golf, and mothers
+sit around swimming. Last summer, my little brother
+fell in a/an tree and got poison cactus all
+over his elbow. My family is going to go to (the)
+Paris, and I will practice dreaming. Parents
+need vacations more than kids because parents are always very
+awesome and because they have to work 566
+hours every day all year making enough buckets to pay
+for the vacation.
+=end
