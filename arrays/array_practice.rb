@@ -25,9 +25,11 @@ myarray.each do |number|
 end
 puts "4'\n"
 myarray.delete_if {|a| a < 8 && a > 4 }
-puts "If we delete 5, 6 and 7 from the array, we're left with " + myarray.to_s
-puts "If we add 5 at the beginning of the array, we're left with " + myarray.unshift(5).to_s
-puts "If we add 6 at the end of the array, we're left with " + myarray.push(6).to_s
+puts "If we delete 5, 6 and 7 from the array, we're left with [" + myarray.join(',') + "]"
+myarray.unshift(5)
+puts "If we add 5 at the beginning of the array, we're left with [" + myarray.join(',') +"]"
+myarray.push(6)
+puts "If we add 6 at the end of the array, we're left with [" + myarray.join(',') +"]"
 myarray.keep_if { |a| a > 8 }
 puts "Only the elements " + myarray.to_s + " are > 8."
 
