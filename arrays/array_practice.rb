@@ -11,7 +11,7 @@ myarray.reverse.each do |number|
   print number.to_s + ", "
   end
 end
-puts "1...BLASTOFF \n"
+puts "1...  BLASTOFF \n"
 puts "The last element is " + myarray.last.to_s
 puts "The first element is " + myarray.first.to_s
 puts "The third element is " + myarray[2].to_s
