@@ -28,21 +28,19 @@ pluralnoun4 = ask_madlib("another plural noun")
 
 
 
-
+puts "Here is your madlib:"
 puts "A vacation is when you take a trip to some " + adjective1 + " place with your " + adjective2 + " family.
-Usually you go to some place that is near a/an " +  noun1  + " or
+Usually you go to some place that is near a/an " + noun1 + " or
 up on a/an " + noun2 + ". A good vacation place is one where
-you can ride " +  pluralnoun  + " or play " + game + " or go hunting for " + pluralnoun2 + ".
+you can ride " + pluralnoun + " or play " + game + " or go hunting for " + pluralnoun2 + ".
 I like to spend my time " + verb1  + " or " + verb2 + ".
 When parents go on a vacation, they spend their time eating
 three " + pluralnoun3 +  " a day, and fathers play golf,
 and mothers sit around " + verb3  + ". Last summer, my little brother
 fell in a/an " +  noun3  + " and got poison " +  plant  + " all
-over his " +  bodypart  + ". My family is going to go to
+over his " + bodypart + ". My family is going to go to
 (the) " +  place  + ", and I will practice " +  verb4  + ".
 Parents need vacations more than kids because
-parents are always very " +
-    adjective3  +
-  " and because they have to work " +  number  + " hours every
-day all year making enough " +  pluralnoun4   + " to pay
-for the vacation."
+parents are always very " + adjective3 + " and because they have to work " + number + "
+hours every day all year making enough " + pluralnoun4 + "
+to pay for the vacation."
