@@ -23,7 +23,7 @@ myarray.each do |number|
   print number.to_s + ", "
   end
 end
-puts "4,'\n"
+puts "4'\n"
 myarray.delete_if {|a| a < 8 && a > 4 }
 puts "If we delete 5, 6 and 7 from the array, we're left with " + myarray.to_s
 puts "If we add 5 at the beginning of the array, we're left with " + myarray.unshift(5).to_s
