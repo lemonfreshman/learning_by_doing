@@ -1,20 +1,29 @@
 #!/usr/bin/env ruby
 
 myarray = [1,2,3,4,5,6,7,8,9,10]
-
-
-
 myarray.each do |number|
   print number.to_s + "..."
 end
-
+puts "\n"
+print "T-"
+myarray.reverse.each do |number|
+  if number > 1
+  print number.to_s + ", "
+  end
+end
 puts "\n"
 puts "The last element is " + myarray.last.to_s
 puts "The first element is " + myarray.first.to_s
+puts "The third element is " + myarray[2].to_s
 puts "The element with an index of 3 is " + myarray[3].to_s
-puts "The second from last element is 9 " + "???"
-puts "The first four elements are " + "???"
-puts "If we delete 5, 6 and 7 from the array, we're left with " + myarray.pop(4).pop(5).pop(6).to_s
+puts "The second from last element is " + myarray[8].to_s
+puts "The first four elements are " + myarray[0..3].to_s
+myarray.delete_if {|a| a < 8 && a > 4 }
+puts "If we delete 5, 6 and 7 from the array, we're left with " + myarray.to_s
+puts "If we add 5 at the beginning of the array, we're left with " + myarray.unshift(5).to_s
+puts "If we add 6 at the end of the array, we're left with " + myarray.push(6).to_s
+myarray.keep_if { |a| a > 8 }
+puts "Only the elements " + myarray.to_s + " are > 8."
 
 
 
