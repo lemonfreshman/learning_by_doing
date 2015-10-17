@@ -32,7 +32,8 @@ myarray.push(6)
 puts "If we add 6 at the end of the array, we're left with [" + myarray.join(',') +"]"
 myarray.keep_if { |a| a > 8 }
 puts "Only the elements " + myarray.to_s + " are > 8."
-
+myarray.clear
+puts "If we remove all the elements, then the length of the array is " + myarray.length.to_s
 
 
 =begin
