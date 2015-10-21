@@ -13,6 +13,7 @@ class CashRegister
   def pay(amount_paid)
     @change = amount_paid - @total
     puts "Your change is $" + @change.to_s
+    @total = 0.00
   end
 
 end
