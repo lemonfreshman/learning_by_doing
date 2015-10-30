@@ -1,4 +1,4 @@
-#This class is for an everyday object +
+#This class is for an everyday object, I can't take credit for the ascii
 class Perfume
   def initialize
     @array_of_types = ['Red', 'Blue', 'Green']
