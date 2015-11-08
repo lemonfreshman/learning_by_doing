@@ -45,9 +45,9 @@ class Perfume
 
   def smell
     if @spray == false
-      "You haven't sprayed anything yet"
+      puts "You haven't sprayed anything yet"
     else
-      "This scent smells " + @smell
+      puts "This scent smells " + @smell
     end
   end
 
@@ -56,17 +56,28 @@ class Perfume
   end
 
   def color
-    "This is a " + @type + " bottle"
+    puts "This is a " + @type + " bottle"
   end
 
   def spray
     @variable = rand()
     @spray = true
     if @variable > 0.5
-      "Careful with that atomizer"
+      puts "Careful with that atomizer"
     else
-      "A little goes a long way"
+      puts "A little goes a long way"
     end
   end
 end
 
+perfume = Perfume.new
+perfume.smell
+perfume.color
+perfume.spray
+perfume.smell
+
+perfume = Perfume.new
+perfume.smell
+perfume.color
+perfume.spray
+perfume.smell
