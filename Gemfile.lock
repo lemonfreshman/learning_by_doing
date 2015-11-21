@@ -54,6 +54,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  distribution
   guard-rubocop
 
 BUNDLED WITH
